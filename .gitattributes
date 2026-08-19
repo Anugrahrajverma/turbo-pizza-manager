@@ -1,0 +1,11 @@
+# Language detection rules
+# Default behavior
+# See https://github.com/github/linguist
+*.yml linguist-detectable=false
+go.sum linguist-generated
+
+public/**/*.html linguist-vendored
+*.md linguist-documentation
+Cargo.lock linguist-generated
+*.ts linguist-detectable
+*.woff2 binary
